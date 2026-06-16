@@ -52,11 +52,11 @@ domestic disputes about a donkey, a persistent creditor named **Θεόφραστ
 - Ch 3: The household. Melitta, Xanthias, Lykos. Direct speech begins.
 - Ch 4: The harbour of Lechaion. Ships arrive; Chrysippus negotiates badly.
 - Ch 5: A creditor arrives. Theophrastus wants money. Chrysippus has none.
-- Ch 6: Chrysippus borrows from Damon. Damon's tavern; its regulars. 3rd decl. introduced.
-- Ch 7: Market day. A dispute about the price of oil. Chrysippus loses.
-- Ch 8: Melitta sends Chrysippus to buy bread. He buys the wrong thing. Middle/passive introduced.
-- Ch 9: Xanthias runs away (briefly). The imperfect is needed to tell the story.
-- Ch 10: Chrysippus hears about a new group meeting in the city. Relative pronoun; curiosity.
+- Ch 6: Chrysippus borrows 50 drachmas from Damon. Terms: 30 days or he loses his rope; fail again and Lykos is Damon's. Tavern regulars all have opinions. Melitta takes charge of the money. **3rd decl. consonant stems: ἀνήρ, νύξ, σῶμα, σάρξ, χάρις, πατήρ, πνεῦμα, ψυχή; πᾶς.**
+- Ch 7: Melitta sells the cloth silently and efficiently. Chrysippus tries to sell his oil; a Syrian merchant sets up next to him with the same oil cheaper. Chrysippus argues that old oil is better, then that it is newer. He sells one jar to a poor old man. Nikon tells him Aquila still needs rope. **3rd decl. neuters and i-stems: πρᾶγμα, ὄνομα, δύναμις, πίστις, πόλις; gen. of price.**
+- Ch 8: Melitta sends Chrysippus for a small barley loaf from the left baker. He meets Euboulides on the way and loses track. He picks the right baker by the wrong logic and returns with a large expensive wheat loaf. Melitta is not surprised. That evening Xanthias mentions seeing Aquila and a kind-looking woman at the well; Melitta already knows her name is Priscilla. **Present middle/passive deponents: πορεύομαι, ἔρχομαι, γίνομαι, ἀποκρίνομαι, ἐρωτάω.**
+- Ch 9: Chrysippus returns home to find Xanthias gone. He searches Corinth. Finds him at Cenchreae harbour watching a ship from Lydia — his homeland. On the way home they pass a lit house with voices inside; Xanthias says there is light there every evening. **Imperfect indicative: ἐζήτει, ἐβλέπεν, ᾔδει, ἦγεν, ἠκούετο; narrative reconstruction.**
+- Ch 10: In Damon's tavern at night, Damon reports on the group that meets in a private house: Jews and Greeks together, they call each other ἀδελφοί, they believe a man who died rose again. The teacher is Aquila. Chrysippus says he is not curious. Melitta says she wants to go. **Relative pronoun ὅς/ἥ/ὅ all cases; embedded relative clauses. Act I ends.**
 
 ### Act II — The community (Chapters 11–20): *Who are these people?*
 
