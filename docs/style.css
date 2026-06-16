@@ -52,7 +52,29 @@ li {
 }
 /* marginal glosses */
 .gloss {
-  font-size: 0.85em;
-  color: #555;
-  font-style: italic;
+  border-bottom: 1px dotted #888;
+  cursor: help;
+  position: relative;
+  display: inline-block;
+}
+.gloss::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  font-size: 0.75em;
+  font-style: normal;
+  padding: 0.25em 0.6em;
+  border-radius: 3px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 10;
+}
+.gloss:hover::after {
+  opacity: 1;
 }
