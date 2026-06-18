@@ -8,7 +8,7 @@ Usage:
 Reports:
     - New lemmas introduced per chapter
     - Any lemma not seen for more than --atrophy-threshold chapters (default: 4)
-    - Coverage against the NT-500 frequency list (nt500.txt if present)
+    - Coverage against the NT-750 frequency list (nt750.txt if present)
 
 The script uses a simple whitespace tokeniser and strips punctuation.
 For proper lemmatisation, replace the token→lemma stub with a call to
@@ -68,7 +68,7 @@ def load_chapters(src_dir: str) -> dict[int, list[str]]:
     return chapters
 
 # ---------------------------------------------------------------------------
-# NT-500 reference list loader
+# NT-750 reference list loader
 # ---------------------------------------------------------------------------
 def load_nt500(path: str) -> list[str]:
     """
@@ -145,7 +145,7 @@ def analyse(
         covered = [l for l in nt500 if l in introduced]
         pct = 100 * len(covered) / len(nt500) if nt500 else 0
         print(f"\n{'='*60}")
-        print(f"NT-500 coverage after ch {final_ch:03d}: "
+        print(f"NT-750 coverage after ch {final_ch:03d}: "
               f"{len(covered)}/{len(nt500)} ({pct:.1f}%)")
         missing = [l for l in nt500 if l not in introduced]
         if missing:
@@ -176,8 +176,8 @@ def main() -> None:
         help="Directory containing chapter .md files (default: src)"
     )
     parser.add_argument(
-        "--nt500", default="scripts/nt500.txt",
-        help="Path to NT-500 frequency list (default: scripts/nt500.txt)"
+        "--nt500", default="scripts/nt750.txt",
+        help="Path to NT vocabulary frequency list (default: scripts/nt750.txt)"
     )
     args = parser.parse_args()
 
@@ -188,7 +188,7 @@ def main() -> None:
 
     nt500 = load_nt500(args.nt500)
     if not nt500:
-        print(f"Note: NT-500 list not found at {args.nt500} — coverage check skipped.",
+        print(f"Note: NT-750 list not found at {args.nt500} — coverage check skipped.",
               file=sys.stderr)
 
     analyse(chapters, args.atrophy_threshold, nt500, args.chapter)
